@@ -124,6 +124,15 @@ footer {
   margin-bottom: 40px;
 }
 
+.centered-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  max-width: 500px;
+}
+
 @media screen and (max-width: 772px) {
   .section_header {
     display: flex;
