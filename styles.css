@@ -1,0 +1,36 @@
+.section_header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920%;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.left {
+  float: left;
+  margin-left: 8%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+  margin-right: 8%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.page_title {
+  font-weight: bold;
+  font-size: 1.20em;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+}
+
+.bottom_nav {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
