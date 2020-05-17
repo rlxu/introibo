@@ -1,3 +1,81 @@
+.header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid #000!important;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.words {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.words > div {
+  margin-bottom: 10px;
+}
+
+.words>* {
+  flex: 1 1 160px;
+}
+
+#toc_container {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 95%;
+  width: 70%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.toc_title {
+  width: 80%;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li {
+  list-style: outside none none !important;
+}
+
+.toc_list {
+  vertical-align: top;
+  margin: 15px;
+}
+
+.footer_text {
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid grey;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+
+.spacing {
+  margin-top: 0px;
+}
+
 .section_header {
   display: flex;
   flex-wrap: wrap;
@@ -46,6 +124,36 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 772px) {
+  .section_header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section_header a {
+    margin-bottom: 10px;
+  }
+  .left {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #toc_container {
+    width: 88%;
+    font-size: 100%;
+  }
+  .toc_list li {
+    margin-bottom: 10px;
 @media screen and (max-width: 900px) {
   .text_body {
     width: 100%;
@@ -67,6 +175,20 @@
 }
 
 @media screen and (max-width: 480px) {
+  .left {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
   .text_body {
     width: 100%;
     margin-top: 15px;
