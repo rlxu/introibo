@@ -133,6 +133,22 @@ footer {
   max-width: 500px;
 }
 
+.centered-img-vert {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  max-width: 60%;
+  max-height: 350px;
+}
+
+.centered-img-caption {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (max-width: 772px) {
   .section_header {
     display: flex;
@@ -163,6 +179,9 @@ footer {
   }
   .toc_list li {
     margin-bottom: 10px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .text_body {
     width: 100%;
@@ -181,6 +200,16 @@ footer {
     margin-right: auto;
     max-width: 80%;
   }
+
+  .page_title {
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -197,12 +226,21 @@ footer {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-}
+
   .text_body {
     width: 100%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+  }
+
+  .page_title {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
   }
 }
