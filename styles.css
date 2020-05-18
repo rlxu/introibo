@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .header {
   text-align: center;
   margin-top: 40px;
@@ -6,25 +10,9 @@
 .box {
   border: 2px solid #000!important;
   width: 70%;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.words {
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-.words > div {
-  margin-bottom: 10px;
-}
-
-.words>* {
-  flex: 1 1 160px;
 }
 
 #toc_container {
@@ -35,15 +23,16 @@
   justify-content: center;
   font-size: 95%;
   width: 70%;
-  max-width: 800px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .toc_title {
-  width: 80%;
+  width: 70%;
   font-weight: 700;
   text-align: center;
   margin-top: 0px;
@@ -57,6 +46,17 @@
 .toc_list {
   vertical-align: top;
   margin: 15px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.toc_list > li {
+  margin-bottom: 5px;
+}
+
+.see_more {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .footer_text {
